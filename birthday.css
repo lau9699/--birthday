@@ -294,9 +294,27 @@ body {
   right: 75px;
 }
 
-.inside h1 {
+/* .inside h1 {
   font-size: clamp(14px, 2vw, 100px);
   line-height: 1;
+}
+ */
+
+.inside h1 {
+  font-size: 100px;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .inside h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .inside h1 {
+    font-size: 25px;
+  }
 }
 
 .corner-img {
