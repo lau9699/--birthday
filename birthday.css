@@ -272,7 +272,7 @@ body {
   pointer-events: none;
 }
 
-.outside h2 {
+/* .outside h2 {
   font-size: clamp(15px, 5vw, 30px);
   text-transform: uppercase;
   text-align: center;
@@ -284,7 +284,7 @@ body {
   transform: translateX(-50%);
 }
 
-.outside h3 {
+ .outside h3 {
   font-size: clamp(14px, 4vw, 25px);
   text-transform: uppercase;
   text-align: center;
@@ -294,6 +294,30 @@ body {
   top: 190px;
   left: 50%;
   transform: translateX(-50%);
+} */
+
+.outside h2 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #575896;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: clamp(14px, 4vw, 25px);
+}
+
+.outside h3 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  color: #575896;
+  position: absolute;
+  top: 190px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: clamp(12px, 4vw, 25px);
 }
 
 .note {
@@ -303,8 +327,8 @@ body {
 
 .corner-img {
   position: absolute;
-  bottom: -15px;
-  right: -20px;
+  bottom: -20px;
+  right: -25px;
   width: 100px;
   height: auto;
   margin: 10px;
