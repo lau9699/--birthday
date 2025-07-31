@@ -280,7 +280,8 @@ body {
   color: #575896;
   position: absolute;
   top: 145px;
-  right: 35px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .outside h3 {
@@ -291,7 +292,8 @@ body {
   color: #575896;
   position: absolute;
   top: 190px;
-  right: 75px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .note {
@@ -301,8 +303,8 @@ body {
 
 .corner-img {
   position: absolute;
-  bottom: -8px;
-  right: -9px;
+  bottom: -15px;
+  right: -20px;
   width: 100px;
   height: auto;
   margin: 10px;
