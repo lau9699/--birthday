@@ -163,34 +163,12 @@ body {
 /* //////////////////////////////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////// */
 
-/* .card {
-  width: 100%;
-  max-width: 480px;
-  height: 280px;
-  position: relative;
-  margin: auto;
-  left:20%;
-  transform: translateX(-54%);
-  top: 0;
-  bottom: 0;
-  -webkit-perspective: 1200px;
-  perspective: 1200px;
-  transition: transform 1s ease-in-out;
-  margin-bottom: 25px;
-}
-
-.card.open {
-  transform: translateX(-30%);
-} */
-
 .card {
   width: 100%;
   max-width: 480px;
   height: 280px;
   position: relative;
   margin: auto;
-  /* left: -120px;
-  right: 0; */
   left:30%;
   transform: translateX(-54%);
   top: 0;
@@ -320,6 +298,7 @@ body {
 .note {
   font-size: clamp(14px, 4vw, 100px);
   line-height: 1.1;
+  text-align: justify;
 }
 
 .corner-img {
