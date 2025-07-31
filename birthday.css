@@ -169,8 +169,10 @@ body {
   height: 280px;
   position: relative;
   margin: auto;
-  left: -120px;
-  right: 0;
+/*   left: -120px;
+  right: 0; */
+  left:20%;
+  transform: translateX(-54%);
   top: 0;
   bottom: 0;
   -webkit-perspective: 1200px;
@@ -180,7 +182,7 @@ body {
 }
 
 .card.open {
-  transform: translateX(120px);
+  transform: translateX(-30%);
 }
 
 .card.open .outside {
