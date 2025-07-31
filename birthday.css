@@ -191,7 +191,7 @@ body {
   margin: auto;
   /* left: -120px;
   right: 0; */
-  left:20%;
+  left:30%;
   transform: translateX(-54%);
   top: 0;
   bottom: 0;
@@ -293,30 +293,6 @@ body {
   pointer-events: none;
 }
 
-/* .outside h2 {
-  font-size: clamp(15px, 5vw, 30px);
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 6px;
-  color: #575896;
-  position: absolute;
-  top: 145px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
- .outside h3 {
-  font-size: clamp(14px, 4vw, 25px);
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 4px;
-  color: #575896;
-  position: absolute;
-  top: 190px;
-  left: 50%;
-  transform: translateX(-50%);
-} */
-
 .outside h2 {
   text-transform: uppercase;
   text-align: center;
@@ -348,8 +324,8 @@ body {
 
 .corner-img {
   position: absolute;
-  bottom: -20px;
-  right: -25px;
+  bottom: -15px;
+  right: -20px;
   width: 100px;
   height: auto;
   margin: 10px;
