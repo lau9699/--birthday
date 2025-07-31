@@ -294,16 +294,10 @@ body {
   right: 75px;
 }
 
-.inside h1 {
-/*   font-size: clamp(14px, 2vw, 100px);
-  line-height: 1; */
-  all: unset;
-  font-size: clamp(8px, 4vw, 100px);
-  line-height: 1;
-  text-align: center;
-  display: block;
+.note {
+  font-size: clamp(14px, 4vw, 100px);
+  line-height: 1.1;
 }
-
 
 .corner-img {
   position: absolute;
